@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+  <!-- codemirror -->
+  <link href="codemirror/lib/codemirror.css"rel="stylesheet" type="text/css">
+  <link href="one-dark.css"rel="stylesheet" type="text/css">
+  
+  <link href="main.css"rel="stylesheet" type="text/css">
+</head>
+  <body>
+    <div class="container">
+      <div id="editor-container">
+        <h1>Source</h1>
+      </div>
+      <div class="tokens-container">
+        <h1>Tokens</h1>
+        <pre class="tokens" id="tokens">
+        </pre>
+      </div>
+    </div>
+
+    <!-- Codemirror -->
+    <script src="codemirror/lib/codemirror.js"></script>
+    <script src="codemirror/mode/clike/clike.js"></script>
+  
+    <script src="tokens.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
